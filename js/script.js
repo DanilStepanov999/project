@@ -22,3 +22,28 @@ const checkFilms = personalMovieDB.movies;
 for (let i in checkFilms) {
     alert(i, ': ', checkFilms[i]);
 };
+
+
+
+
+
+for (let i = 0; i < 3; i++) {
+    console.log('Ok!')
+};
+
+
+
+(number === 50) ? console.log('ok!') : console.log('Error');
+
+const number = 50;
+
+switch(number) {
+    case 49:
+        return 'неверно';
+    case 100:
+        return 'неверно';
+    case 50:
+        return 'В точку';
+    default:
+        return 'не в этот раз';
+}
